@@ -30,3 +30,70 @@
     flex-basis: 100%;
 }
 
+.work-images img {
+    width: auto;
+}
+
+.ul1 {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+.ul2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+
+li {
+    display: inline;
+    width: 20%;
+}
+
+header {
+    display: flex;
+}
+.work-item {
+    background-size: cover;
+    height:200px;
+    width:100%;
+    position: relative;
+    margin: 10px;
+}
+#work-1 {
+    background-image: url('../images/surf.jpg');
+}
+#work-2 {
+    background-image: url('../images/calculator.jpg');
+}
+#work-3 {
+    background-image: url('../images/LED.jpg');
+}
+#work-4 {
+    background-image: url('../images/pastel.jpg');
+}
+#work-5 {
+    background-image: url('../images/Map.jpg');
+}
+
+
+.work-headings {
+    position: absolute;
+    top: 50%;
+    left:0;
+    word-break: break-word;
+    min-width:200px;
+    max-width:50%;
+    display:inline-block;
+    background-color:blue;
+    color:#ffffff;
+    padding-top: 10px;
+    padding-left:20px;
+    padding-bottom:20px;
+}
+.work-headings h3 {
+    font-size:16px;
+}
+
