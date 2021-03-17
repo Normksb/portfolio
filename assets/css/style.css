@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flex-content {
+    width: 80%;
+    padding-left: 10px;
+
+}
+
+.flex-heading {
+    width: 20%;
+    border-right: solid 1px #333;
+    text-align: right;
+    padding-right: 10px;
+    flex-shrink: 0;
+}
+
+.flex-content-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.flex-content-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
